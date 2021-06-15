@@ -510,7 +510,7 @@ button {
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  border: 7px solid black;
+  border: 4px solid grey;
   box-shadow: none;
 }
 .form-control:active {
@@ -1081,9 +1081,7 @@ strong {
   margin-top: 0;
 }
 
-#bloc-7 {
-  background-color: #e2e2e2;
-}
+ 
 .titleCard p {
   text-transform: uppercase;
   font-size: 18px;
