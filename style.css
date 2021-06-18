@@ -705,16 +705,20 @@ p {
 }
 
 .social {
+  display: flex;
+  flex-direction: row;
   max-width: 400px;
   margin: auto auto auto auto;
+  padding: 20px;
+  text-decoration: none;
 }
 .social i {
-  color: #361607;
-  background-color: transparent;
+  color: #361607 !important;
+  background-color: transparent !important;
 }
 .social i:hover {
-  transform: scale(1.5);
-  color: gray;
+  transform: scale(1.5) !important;
+  color: gray !important;
 }
 
 h2 {
@@ -1100,13 +1104,13 @@ p.text-center {
   background-color: #f3976c !important;
   height: auto;
 }
-footer {
+.footerAfter {
   background-color: #f3976c !important;
-  justify-content: center;
-  text-align: center;
+  justify-content: center !important;
+  text-align: center !important;
 }
 h1 {
-  color: white;
+  color: #f3976c;
 }
 h2 {
   color: #000000;
@@ -1117,6 +1121,9 @@ h3 {
 }
 h5 {
   color: #f2f2f2;
+}
+.text-center.white {
+  justify-content: center;
 }
 .email a {
   text-decoration: none;
@@ -1168,4 +1175,45 @@ p.subTitle {
 .mainContact {
   width: 100%;
   justify-content: center;
+}
+label {
+  justify-content: left;
+  color: #000000;
+}
+#name {
+  margin-left: 200px;
+}
+.name {
+  margin-left: 350px;
+}
+.contactBtn button {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  margin-left: 300px;
+}
+
+#email {
+  margin-left: 200px;
+}
+.mailText {
+  margin-left: 300px;
+}
+#input_504,
+.discover {
+  margin-left: 200px;
+}
+html {
+  width: 100%;
+}
+header.contactNav {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+#nav-toggle {
+  display: none;
+}
+label.brief {
+  margin-left: 150px;
 }
