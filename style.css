@@ -946,17 +946,10 @@ h4 {
     flex-direction: row;
     text-align: center;
     margin: auto;
+    justify-content: space-around;
     width: 100%;
   }
-  img.footerLogo {
-    margin: auto;
-    width: auto;
-    padding-left: 75px;
-  }
-  .bottomFooter {
-    display: flex;
-    justify-content: space-around;
-  }
+
   i.social {
     display: flex;
     padding: 5px;
@@ -1149,20 +1142,9 @@ p.text-center {
   font-size: 18px;
   justify-content: center;
   margin-top: 0;
-  margin-left: 10px;
   color: #361607;
 }
-#bloc-8 {
-  background-color: #f3976c !important;
-  height: auto;
-}
-footer {
-  background-color: #f3976c;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 50px;
-  height: auto;
-}
+
 h1 {
   color: #f3976c;
 }
@@ -1179,17 +1161,17 @@ h3 {
 h5 {
   color: white !important;
 }
+
 h6 {
-  width: 100%;
-  color: black;
-  text-align: right;
-  justify-content: right;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+header {
+  align-items: center;
+  vertical-align: middle;
 }
 
-.text-center.white {
-  justify-content: center;
-  line-height: 2;
-}
 .emailButton a {
   display: flex;
   text-decoration: none;
@@ -1227,25 +1209,14 @@ h1.titleContact {
   margin-left: auto;
   margin-right: auto;
 }
-p.subTitle {
-  width: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline;
+.subTitle {
   color: #361607;
   margin-top: 30px;
   font-size: 30px;
-  text-justify: distribute;
   line-height: 2;
+  text-align: center;
 }
 
-#bloc-6 {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-}
 .mainContact {
   height: 100%;
   justify-content: center;
@@ -1312,37 +1283,11 @@ label.brief {
 }
 
 .navbar-brand img {
-  display: inline;
   width: auto;
-}
-.footerLogo img {
-  max-height: 40px;
-  width: auto;
-  justify-content: center;
+  margin-left: 0;
 }
 
-.bottomFooter {
-  margin-top: 100px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-}
-
-p.address {
-  display: inline;
-  justify-content: center;
-}
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  vertical-align: middle;
-}
-
-.header a {
+.headerContact a {
   display: block;
   position: relative;
   text-decoration: none;
@@ -1360,17 +1305,39 @@ div.contactBtn {
   justify-content: center;
 }
 
-.contact {
-  justify-content: center;
-  text-align: center;
-  max-width: 1400px;
-  width: 100%;
-}
 .h5 {
   color: white !important;
 }
 
-header {
+body.contact {
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+}
+footer {
+  background-color: #f3976c;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footerLogo img {
+  max-height: 40px;
+  width: auto;
+  justify-content: center;
+}
+
+.bottomFooter {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  vertical-align: middle;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.locationHour {
+  justify-content: center;
+}
+
+html {
+  width: 100%;
 }
