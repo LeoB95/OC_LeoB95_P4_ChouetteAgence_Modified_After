@@ -38,24 +38,21 @@
 
 </head>
 
-<body>
+<body class="contact">
 	<!-- Principal conteneur -->
 	<div class="page-container">
-
-		<!-- bloc-0 -->
-		<header class="contactNav">
+		<header class="header">
 			<!-- bloc-0 -->
 			<div class="bloc bgc-white l-bloc " id="bloc-0">
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
+							<!-- MODIFICATION  -->
+							<!--  OK Supprime les mots clés OK -->
 							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-									alt="atlanta web design logo" height="40" /></a>
-							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-								data-toggle="collapse" data-target=".navbar-1">
-								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-									class="icon-bar"></span><span class="icon-bar"></span>
-							</button>
+									alt="logo chouette agence" height="40" /></a>
+							<!-- MODIFICATION  -->
+							<!--  OK Supprime les mots clés OK + toggle navbar -->
 						</div>
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
@@ -65,7 +62,9 @@
 								<li>
 								</li>
 								<li>
-									<a href="page2.html">page2 &gt;</a>
+									<!-- MODIFICATION  -->
+									<!-- OK  Modifier nom du fichier html et nom du bouton OK -->
+									<a href="contact.html">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -101,51 +100,52 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent."
-								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-								<div class="form-group">
-									<label>
-										<div class="name">
-											Nom</div>
-									</label>
-									<input id="name" class="form-control" required />
-								</div>
-								<div class="form-group">
-									<!--  attribut "for"-->
-									<!--  attribut placeholder -->
-
-									<label for="email">
-										<div class="mailText">
-											Adresse email
-										</div>
-									</label>
-									<input id="email" class="form-control" type="email" required />
-								</div>
-								<div class="form-group">
-									<label>
-										<div class="discover">
-											Comment nous avez-vous connu ?</div>
-									</label>
-									<input class="form-control" type="email" required id="input_504" />
-								</div>
-								<div class="form-group">
-									<div class="brief">
-
+							<div class="formContainer">
+								<form id="form_1" novalidate success-msg="Your message has been sent."
+									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+									<div class="form-group">
 										<label>
-											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-										</label><textarea id="message" class="form-control" rows="4" cols="50"
-											required></textarea>
+											<div class="name">
+												Nom</div>
+										</label>
+										<input id="name" class="form-control" required />
 									</div>
-								</div>
-								<div class="contactBtn">
-									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-										type="submit">
-										Envoyer
-									</button>
-								</div>
-							</form>
-						</div>
+									<div class="form-group">
+										<!--  attribut "for"-->
+										<!--  attribut placeholder -->
 
+										<label for="email">
+											<div class="mailText">
+												Adresse email
+											</div>
+										</label>
+										<input id="email" class="form-control" type="email" required />
+									</div>
+									<div class="form-group">
+										<label>
+											<div class="discover">
+												Comment nous avez-vous connu ?</div>
+										</label>
+										<input class="form-control" type="email" required id="input_504" />
+									</div>
+									<div class="form-group">
+										<div class="brief">
+
+											<label>
+												Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+											</label><textarea id="message" class="form-control" rows="4" cols="50"
+												required></textarea>
+										</div>
+									</div>
+									<div class="contactBtn">
+										<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+											type="submit">
+											Envoyer
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -195,24 +195,28 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Footer - bloc-8 END -->
-
-		</div>
-		<!-- Principal conteneur END -->
 
 
-		<div class="col-sm-6">
-			<div class="email">
-				<a href="contact@lachouetteagence.com">
-					Envoyez-nous un e-mail !
-				</a>
+
+
+
+			<div class="col-sm-6">
+				<div class="bottomFooter">
+					<div class="footerLogo"><img class="footerLogo" src="img/la-chouette-agence.png" alt="logo footer">
+					</div>
+					<div class="address">
+						<p class="address">2 place Sathonay<br> 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
+							au vendredi</p>
+					</div>
+				</div>
 			</div>
-			<div class="address">
-				<p>Adresse: 2 place Sathonay 69001 Lyon<br>Horaires: Ouvert de 9h à 18h, du lundi
-					au vendredi</p>
-			</div>
+		</div>
 	</footer>
+	</div>
+
+	<!-- Footer - bloc-8 END -->
+
+	<!-- Principal conteneur END -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Y8ZJXTZXV"></script>
 	<script>
