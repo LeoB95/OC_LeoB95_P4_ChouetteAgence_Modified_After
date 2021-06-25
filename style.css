@@ -1186,18 +1186,16 @@ header {
 }
 .address p {
   color: #361607;
-  width: 70%;
+  width: 100%;
   font-size: 20px;
   margin-bottom: 40px;
   margin-top: 60px;
+  margin-right: 15px;
   text-align: center;
-  justify-content: center;
   line-height: 2;
+  justify-content: right;
 }
-.col-sm-6 {
-  justify-content: center;
-  text-align: center;
-}
+
 h1.titleContact {
   display: flex;
   color: black;
@@ -1315,29 +1313,37 @@ body.contact {
   background-color: transparent;
 }
 footer {
+  display: flex;
+
   background-color: #f3976c;
-  justify-content: center;
-  text-align: center;
   padding-bottom: 10px;
+  width: 100%;
 }
 .footerLogo img {
   max-height: 40px;
   width: auto;
-  justify-content: center;
+  justify-content: left;
 }
 
 .bottomFooter {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  text-align: center;
   justify-content: space-between;
+  width: 100%;
 }
 
-.locationHour {
-  justify-content: center;
+p.locationHour {
+  display: flex;
+  width: 100%;
+  justify-content: right;
 }
 
 html {
   width: 100%;
+}
+.bottomFooter {
+  display: flex;
+  background-color: #f3976c;
+  width: 100%;
+  justify-content: space-between;
 }
