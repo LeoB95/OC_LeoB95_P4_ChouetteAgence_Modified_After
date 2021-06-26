@@ -192,8 +192,7 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -334,7 +333,8 @@ a:hover {
   background: transparent;
 }
 
-.nav-invert .navbar .nav {
+.nav-invert .navbar .nav,
+.headerImg {
   float: left;
 }
 
@@ -496,6 +496,8 @@ button {
   border: 4px solid grey;
   background-color: #f2f2f2;
   box-shadow: none;
+  justify-content: center !important;
+  text-align: center;
 }
 .form-control:active {
   border-color: #0065fc;
@@ -923,21 +925,30 @@ h4 {
   .b-parallax {
     background-attachment: scroll;
   }
-
+  h6 {
+    line-height: 1.5;
+  }
+  .locationHour {
+    margin-top: 10px;
+  }
   blockquote {
     margin-left: 5px;
     margin-right: 5px;
   }
-
+  .mainContact {
+    display: flex;
+    flex-direction: column;
+  }
   .formContainer {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: center !important;
     max-width: 500px;
     width: auto;
   }
   form {
     max-width: 500px;
+    width: auto;
     justify-content: left;
   }
   div.bottomFooter {
@@ -1168,10 +1179,19 @@ h6 {
   color: #000000;
 }
 header {
+  display: flex;
   align-items: center;
   vertical-align: middle;
 }
-
+.headerContact {
+  display: flex;
+  vertical-align: middle;
+  margin-right: 100px;
+  margin-left: 180px;
+}
+.headerImg {
+  margin-left: 200px;
+}
 .emailButton a {
   display: flex;
   text-decoration: none;
@@ -1204,6 +1224,7 @@ h1.titleContact {
   font-weight: bolder;
   justify-content: center;
   width: 100%;
+  padding-left: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1212,6 +1233,8 @@ h1.titleContact {
   margin-top: 30px;
   font-size: 30px;
   line-height: 2;
+  padding-left: 400px;
+
   text-align: center;
 }
 
@@ -1222,31 +1245,36 @@ h1.titleContact {
   margin: auto;
 }
 label {
-  justify-content: left;
+  justify-content: center !important;
   color: #000000;
 }
-#name {
-  margin-left: 200px;
+.blockForm {
+  justify-content: center;
 }
-.name {
-  margin-left: 350px;
+label#name {
+  justify-content: center;
 }
-.contactBtn button {
+label.name {
+  justify-content: center;
+}
+label.contactBtn button {
+  justify-content: center;
+
   display: flex;
   align-items: center;
   width: 200px;
   height: 80px;
 }
 
-#email {
-  margin-left: 200px;
+label#email {
+  justify-content: center;
 }
-.mailText {
-  margin-left: 300px;
+label.mailText {
+  justify-content: center;
 }
-#input_504,
-.discover {
-  margin-left: 200px;
+label#input_504,
+label.discover {
+  justify-content: center;
 }
 
 #nav-toggle {
@@ -1277,12 +1305,7 @@ label.brief {
   text-decoration: none;
   list-style: none;
   color: #000000;
-  padding-right: 10px;
-}
-
-.navbar-brand img {
-  width: auto;
-  margin-left: 0;
+  padding-right: 25px;
 }
 
 .headerContact a {
@@ -1290,8 +1313,11 @@ label.brief {
   position: relative;
   text-decoration: none;
   list-style: none;
-  padding-right: 10px;
+
   align-items: center;
+}
+.headerContact {
+  margin-right: 250px;
 }
 .col-sm-12 {
   margin: auto;
@@ -1314,7 +1340,7 @@ body.contact {
 }
 footer {
   display: flex;
-
+  justify-content: space-between !important;
   background-color: #f3976c;
   padding-bottom: 10px;
   width: 100%;
@@ -1341,7 +1367,7 @@ p.locationHour {
 html {
   width: 100%;
 }
-.bottomFooter {
+footer.bottomFooter {
   display: flex;
   background-color: #f3976c;
   width: 100%;
