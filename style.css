@@ -928,6 +928,13 @@ h4 {
   h6 {
     line-height: 1.5;
   }
+  Header {
+    margin: 0;
+    justify-content: left;
+  }
+  main {
+    height: 100%;
+  }
   .locationHour {
     margin-top: 10px;
   }
@@ -940,11 +947,7 @@ h4 {
     flex-direction: column;
   }
   .formContainer {
-    display: flex;
-    text-align: center;
-    justify-content: center !important;
-    max-width: 500px;
-    width: auto;
+    width: 20%;
   }
   form {
     max-width: 500px;
@@ -1103,6 +1106,51 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+  label {
+    max-width: 200px;
+
+    width: 10%;
+    justify-content: left;
+    margin: 0;
+  }
+  .mainContact {
+    margin: 0;
+    justify-content: left;
+    width: auto;
+  }
+  .blockForm {
+    max-width: 200px;
+
+    width: 10%;
+    justify-content: left;
+    margin: 0;
+  }
+  form {
+    flex-direction: column;
+    max-width: 200px;
+
+    width: 10%;
+    justify-content: left;
+    margin: 0;
+  }
+  input {
+    display: inline;
+    max-width: 200px;
+    width: auto;
+  }
+  .formContainer {
+    width: 20%;
+    justify-content: left;
+    margin: 40px;
+  }
+  textarea #message {
+    max-width: 100px;
+  }
+}
+.name,
+.mailText,
+.discover {
+  display: inline;
 }
 .textQuote {
   display: inline;
@@ -1358,10 +1406,11 @@ footer {
   width: 100%;
 }
 
-p.locationHour {
+div.address {
   display: flex;
-  width: 100%;
   justify-content: right;
+  text-align: right;
+  margin-left: 10px;
 }
 
 html {
