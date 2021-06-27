@@ -1305,6 +1305,12 @@ h1.titleContact {
 
   text-align: center;
 }
+h2.titleContact2 {
+  font-size: 34px;
+  color: #000000;
+  text-transform: uppercase;
+  justify-content: left;
+}
 
 label {
   color: #000000;
