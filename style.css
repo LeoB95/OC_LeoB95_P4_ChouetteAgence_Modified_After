@@ -1116,46 +1116,59 @@ h4 {
   }
 }
 /* DEBUT FORMAT SMARTPHONE */
-
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
-
+  h1.titleContact {
+    line-height: 1.5;
+    padding-bottom: 20px;
+    border-bottom: dotted 4px #361607;
+  }
   .mainContact {
     margin: 0;
+    height: 100%;
     justify-content: left;
-    width: auto;
   }
   .blockForm {
     justify-content: left;
     margin: 0;
   }
   .labelName {
-    width: 350px;
+    width: 180px;
+
+    font-size: 16px;
     margin-bottom: 15px;
   }
   form {
     flex-direction: column;
-    width: 350px;
+    width: 180px;
 
-    width: 10%;
     justify-content: left;
     margin: 0;
   }
   input {
     display: inline;
-    width: 350px;
-    width: auto;
+    width: 180px;
+
     font-size: 16px;
     margin-bottom: 50px;
   }
   .formContainer {
     justify-content: left;
-    margin: 40px;
+    margin: 10px;
   }
   textarea {
-    width: 350px;
+    width: 180px;
+    height: 250px;
+  }
+  .contactBtn {
+    justify-content: center;
+    margin: 10px;
+  }
+  .social {
+    padding: 5px;
+    justify-content: center;
   }
 }
 /* FIN FORMAT SMARTPHONE */
