@@ -147,7 +147,7 @@ a:hover {
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
+p.lastTitle,
 .d-bloc p a:hover {
   color: rgba(255, 255, 255, 1);
 }
@@ -227,7 +227,7 @@ a:hover {
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
-.l-bloc h6 a,
+p.lastTitle,
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -245,7 +245,7 @@ a:hover {
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
+p.lastTitle,
 .l-bloc p a:hover {
   color: rgba(0, 0, 0, 1);
 }
@@ -496,8 +496,6 @@ button {
   border: 4px solid grey;
   background-color: #f2f2f2;
   box-shadow: none;
-  justify-content: center !important;
-  text-align: center;
 }
 .form-control:active {
   border-color: #0065fc;
@@ -645,7 +643,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
+p.lastTitle,
 p,
 label,
 .btn,
@@ -916,7 +914,7 @@ h4 {
   h3,
   h4,
   h5,
-  h6,
+  p.lastTitle,
   p,
   #disqus_thread {
     padding-left: 10px !important;
@@ -925,12 +923,21 @@ h4 {
   .b-parallax {
     background-attachment: scroll;
   }
-  h6 {
-    line-height: 1.5;
+  header.headerContact {
+    margin-left: 5px !important;
   }
-  Header {
+  h1.titleContact {
+    text-align: center;
+  }
+  p.lastTitle {
+    line-height: 1.5;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .contactLogo img {
     margin: 0;
     justify-content: left;
+    text-align: left;
   }
   main {
     height: 100%;
@@ -942,18 +949,25 @@ h4 {
     margin-left: 5px;
     margin-right: 5px;
   }
-  .mainContact {
-    display: flex;
-    flex-direction: column;
-  }
-  .formContainer {
-    width: 20%;
+
+  label {
+    display: inline;
+    width: 100%;
   }
   form {
     max-width: 500px;
     width: auto;
     justify-content: left;
   }
+  .briefForm {
+    width: 100px;
+  }
+  .contactBtn {
+    margin-left: 40px;
+    max-width: 200px;
+    width: auto;
+  }
+
   div.bottomFooter {
     display: flex;
     flex-wrap: wrap;
@@ -1101,33 +1115,29 @@ h4 {
     padding-right: 0;
   }
 }
+/* DEBUT FORMAT SMARTPHONE */
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
-  label {
-    max-width: 200px;
 
-    width: 10%;
-    justify-content: left;
-    margin: 0;
-  }
   .mainContact {
     margin: 0;
     justify-content: left;
     width: auto;
   }
   .blockForm {
-    max-width: 200px;
-
-    width: 10%;
     justify-content: left;
     margin: 0;
   }
+  .labelName {
+    width: 350px;
+    margin-bottom: 15px;
+  }
   form {
     flex-direction: column;
-    max-width: 200px;
+    width: 350px;
 
     width: 10%;
     justify-content: left;
@@ -1135,23 +1145,20 @@ h4 {
   }
   input {
     display: inline;
-    max-width: 200px;
+    width: 350px;
     width: auto;
+    font-size: 16px;
+    margin-bottom: 50px;
   }
   .formContainer {
-    width: 20%;
     justify-content: left;
     margin: 40px;
   }
-  textarea #message {
-    max-width: 100px;
+  textarea {
+    width: 350px;
   }
 }
-.name,
-.mailText,
-.discover {
-  display: inline;
-}
+/* FIN FORMAT SMARTPHONE */
 .textQuote {
   display: inline;
 }
@@ -1221,7 +1228,7 @@ h5 {
   color: white !important;
 }
 
-h6 {
+p.lastTitle {
   text-align: center;
   justify-content: center;
   color: #000000;
@@ -1286,59 +1293,26 @@ h1.titleContact {
   text-align: center;
 }
 
-.mainContact {
-  height: 100%;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-}
 label {
-  justify-content: center !important;
   color: #000000;
+  font-size: 22px;
+  justify-content: left;
 }
-.blockForm {
-  justify-content: center;
-}
-label#name {
-  justify-content: center;
-}
-label.name {
-  justify-content: center;
-}
-label.contactBtn button {
-  justify-content: center;
 
+label.contactBtn button {
   display: flex;
   align-items: center;
   width: 200px;
   height: 80px;
 }
-
-label#email {
-  justify-content: center;
+#form_1 {
+  text-align: left;
 }
-label.mailText {
-  justify-content: center;
-}
-label#input_504,
-label.discover {
-  justify-content: center;
-}
-
 #nav-toggle {
   display: none;
 }
-label.brief {
-  margin-left: 150px;
-}
 
-.formContainer {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
 #bloc-7 {
-  justify-content: center;
   width: 100%;
 }
 
@@ -1381,11 +1355,6 @@ div.contactBtn {
   color: white !important;
 }
 
-body.contact {
-  justify-content: center;
-  text-align: center;
-  background-color: transparent;
-}
 footer {
   display: flex;
   justify-content: space-between !important;
