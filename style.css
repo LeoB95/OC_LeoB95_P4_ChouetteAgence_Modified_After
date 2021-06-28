@@ -934,7 +934,7 @@ h4 {
     justify-content: center !important;
     text-align: center !important;
   }
-  .contactLogo img {
+  .headerLogo img {
     margin: 0;
     justify-content: left;
     text-align: left;
@@ -1116,11 +1116,12 @@ h4 {
   }
 }
 /* DEBUT FORMAT SMARTPHONE */
+
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
-  h1.titleContact {
+  .headerLogo img h1.titleContact {
     line-height: 1.5;
     padding-bottom: 20px;
     border-bottom: dotted 4px #361607;
@@ -1129,6 +1130,7 @@ h4 {
     margin: 0;
     height: 100%;
     justify-content: left;
+    background-color: #e2e2e2;
   }
   .blockForm {
     justify-content: left;
@@ -1198,7 +1200,7 @@ strong {
 .bloc-lg {
   margin-top: 40px;
 }
-#bloc-7 {
+main.mainContact {
   background-color: #e2e2e2;
 }
 .titleCard p {
@@ -1241,7 +1243,7 @@ h5 {
   color: white !important;
 }
 
-p.lastTitle {
+.lastTitle p {
   text-align: center;
   justify-content: center;
   color: #000000;
@@ -1257,6 +1259,7 @@ header {
   margin-right: 100px;
   margin-left: 180px;
 }
+
 .headerImg {
   margin-left: 200px;
 }
@@ -1291,10 +1294,7 @@ h1.titleContact {
   font-size: 34px;
   font-weight: bolder;
   justify-content: center;
-  width: 100%;
-  padding-left: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 350px;
 }
 .subTitle {
   color: #361607;
@@ -1311,7 +1311,6 @@ h2.titleContact2 {
   text-transform: uppercase;
   justify-content: left;
 }
-
 label {
   color: #000000;
   font-size: 22px;
@@ -1324,6 +1323,7 @@ label.contactBtn button {
   width: 200px;
   height: 80px;
 }
+
 #form_1 {
   text-align: left;
 }
@@ -1332,7 +1332,9 @@ label.contactBtn button {
 }
 
 #bloc-7 {
+  background-color: #e2e2e2;
   width: 100%;
+  height: 100%;
 }
 
 .buttonList {
