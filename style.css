@@ -1406,9 +1406,9 @@ div.address {
 html {
   width: 100%;
 }
-footer.bottomFooter {
+.bottomFooter {
   display: flex;
   background-color: #f3976c;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
