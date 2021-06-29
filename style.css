@@ -964,7 +964,7 @@ h4 {
   }
   .contactBtn {
     margin-left: 40px;
-    max-width: 200px;
+    max-width: 100px;
     width: auto;
   }
 
@@ -1129,7 +1129,7 @@ h4 {
   .mainContact {
     margin: 0;
     height: 100%;
-    justify-content: left;
+    justify-content: center;
     background-color: #e2e2e2;
   }
   .blockForm {
@@ -1202,6 +1202,8 @@ strong {
 }
 main.mainContact {
   background-color: #e2e2e2;
+  justify-content: center;
+  width: 100%;
 }
 .titleCard p {
   text-transform: uppercase;
@@ -1280,11 +1282,10 @@ header {
   width: 100%;
   font-size: 20px;
   margin-bottom: 40px;
-  margin-top: 60px;
+  margin-top: 10px;
   margin-right: 15px;
   text-align: center;
   line-height: 2;
-  justify-content: right;
 }
 
 h1.titleContact {
@@ -1294,14 +1295,12 @@ h1.titleContact {
   font-size: 34px;
   font-weight: bolder;
   justify-content: center;
-  padding-left: 350px;
 }
 .subTitle {
   color: #361607;
   margin-top: 30px;
   font-size: 30px;
   line-height: 2;
-  padding-left: 400px;
 
   text-align: center;
 }
@@ -1309,21 +1308,25 @@ h2.titleContact2 {
   font-size: 34px;
   color: #000000;
   text-transform: uppercase;
-  justify-content: left;
+  justify-content: center;
+  text-align: center;
 }
+
 label {
   color: #000000;
   font-size: 22px;
-  justify-content: left;
+  justify-content: center;
 }
 
 label.contactBtn button {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 100px;
   height: 80px;
 }
-
+.contactBtn {
+  border-radius: 40px;
+}
 #form_1 {
   text-align: left;
 }
@@ -1378,7 +1381,7 @@ div.contactBtn {
 
 footer {
   display: flex;
-  justify-content: space-between !important;
+  justify-content: center;
   background-color: #f3976c;
   padding-bottom: 10px;
   width: 100%;
@@ -1386,29 +1389,13 @@ footer {
 .footerLogo img {
   max-height: 40px;
   width: auto;
-  justify-content: left;
 }
 
 .bottomFooter {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-div.address {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  margin-left: 10px;
-}
-
-html {
-  width: 100%;
-}
-.bottomFooter {
-  display: flex;
-  background-color: #f3976c;
-  width: 100%;
   justify-content: center;
+  width: 100%;
+  background-color: #f3976c;
 }
