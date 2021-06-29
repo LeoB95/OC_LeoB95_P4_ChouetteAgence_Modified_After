@@ -7610,19 +7610,7 @@ button.close {
 .carousel-control.right {
   right: 0;
   left: auto;
-
- color: gradient(
-    linear,
-    left top,
-    right top,
-    from(rgba(0, 0, 0, 0.0001)),
-    to(rgba(0, 0, 0, 0.5))
-  );
- color: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.0001) 0,
-    rgba(0, 0, 0, 0.5) 100%
-  );
+ 
   background-repeat: repeat-x;
 }
 
