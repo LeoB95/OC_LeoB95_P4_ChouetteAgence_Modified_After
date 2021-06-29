@@ -7611,7 +7611,7 @@ button.close {
   right: 0;
   left: auto;
 
-  background-image: gradient(
+  background-color: gradient(
     linear,
     left top,
     right top,
