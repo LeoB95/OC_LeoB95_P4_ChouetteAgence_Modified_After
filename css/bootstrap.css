@@ -7611,14 +7611,14 @@ button.close {
   right: 0;
   left: auto;
 
-  background-color: gradient(
+ color: gradient(
     linear,
     left top,
     right top,
     from(rgba(0, 0, 0, 0.0001)),
     to(rgba(0, 0, 0, 0.5))
   );
-  background-color: linear-gradient(
+ color: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.0001) 0,
     rgba(0, 0, 0, 0.5) 100%
