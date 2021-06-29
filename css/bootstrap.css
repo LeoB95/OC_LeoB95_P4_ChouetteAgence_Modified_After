@@ -156,8 +156,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  appearance: button;
-  cursor: pointer;
+   cursor: pointer;
 }
 
 button[disabled],
@@ -181,8 +180,7 @@ input[type="search"] {
   box-sizing: content-box;
   box-sizing: content-box;
   box-sizing: content-box;
-  appearance: textfield;
-}
+ }
 
 fieldset {
   padding: 0.35em 0.625em 0.75em;
@@ -7620,7 +7618,7 @@ button.close {
     from(rgba(0, 0, 0, 0.0001)),
     to(rgba(0, 0, 0, 0.5))
   );
-  background-image: linear-gradient(
+  background-color: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.0001) 0,
     rgba(0, 0, 0, 0.5) 100%
