@@ -2,33 +2,30 @@
 <html lang="fr">
 
 <head>
-
 	<meta charset="utf-8">
-	<meta name="keywords" content="agence design lyon, agence, design">
-	<!--  Description entre 160 et 180 caractères -->
-	<meta name="description"
-		content="La chouette agence, situé à Lyon, est spécialisée dans le domaine du design, pour les particuliers ainsi que les professionnels souhaitant le service d'une société spécialiste comme la notre">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!--  Mettre la version minifiée  -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Import du fichier minimale fontawesome -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<!--  OK Mettre la version minifiée OK  -->
-	<link rel="stylesheet" type="text/css" href="css/et-line.css">
 
-	<!--  Vérifier les scripts  -->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 
-	<title>La chouette agence</title>
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+	<title>Contact</title>
 
 
+	<!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Y8ZJXTZXV"></script>
 	<script>
@@ -38,45 +35,37 @@
 
 		gtag('config', 'G-2Y8ZJXTZXV');
 	</script>
-	<!--  Cours 2: code x2 avec un a la fin du body identification  -->
-	<!--  fichier sitemap et roboTX HTACCESS -->
-
 	<!-- Analytics END -->
 
 </head>
 
-<body>
+<body class="contact">
 	<!-- Principal conteneur -->
 	<div class="page-container">
-		<!-- Ajout des balises "header" -->
-		<header>
+		<header class="headerContact">
 			<!-- bloc-0 -->
 			<div class="bloc bgc-white l-bloc " id="bloc-0">
 				<div class="container bloc-sm">
-
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<!-- MODIFICATION  -->
-
 							<!--  OK Supprime les mots clés OK -->
-							<a class="navbar-brand" href="index.html"><img class="headerLogo btn-d"
+							<a class="navbar-brand" href="index.html"><img class="headerImg headerLogo btn-d"
 									src="img/la-chouette-agence.png" alt="logo chouette agence" height="40" /></a>
 							<!-- MODIFICATION  -->
-
 							<!--  OK Supprime les mots clés OK + toggle navbar -->
-
 						</div>
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
-								<li class="btn-d">
-									<a href="index.html">Accueil</a>
+								<li>
+									<a class="btn-d" href="index.html">Accueil</a>
 								</li>
-
-								<li class="btn-d">
+								<li>
+								</li>
+								<li>
 									<!-- MODIFICATION  -->
-
 									<!-- OK  Modifier nom du fichier html et nom du bouton OK -->
-									<a href="contact.html">Contact</a>
+									<a class="btn-d" href="contact.html">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -85,267 +74,89 @@
 			</div>
 		</header>
 		<!-- bloc-0 END -->
-		<!-- Ajout des balises "main" -->
-		<main>
-			<!-- bloc-1-presentation -->
-			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
-				id="bloc-1-hero">
+		<main class="mainContact">
+			<!-- bloc-6 -->
+			<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
+				id="bloc-6">
 				<div class="container bloc-lg">
-					<div class="row tight-width-whitespace">
-						<div class="col-sm-12">
-							<img src="img/logo.png" class="center-block image-resize-mode" width="100"
-								alt="La chouette agence, agence web paris, création logo paris" />
-							<!-- MODIFICATION  -->
-
-							<!-- OK Mettre une description de l'agence OK -->
-							<h1 class="text-center hero-bloc-text tc-white btn-d">
-								La chouette agence est une entreprise pionnière dans le web design de la région
-								lyonnaise,
-								chouette alors !
-							</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- bloc-1-presentation END -->
-
-			<!-- bloc-2-services -->
-			<div class="bloc bgc-white l-bloc" id="bloc-2-services">
-				<div class="container bloc-md">
 					<div class="row">
-						<!-- MODIFICATION ajout d'un h2 à la place de l'image  -->
-						<div class="col-sm-12 text-center">
-							<h2 class="btn-d">La chouette agence est une agence de web design qui aide les entreprises à
-								devenir
-								attractives et visibles sur internet</h2>
-						</div>
-					</div>
-					<div class="row voffset-lg med-width-whitespace">
-						<div class="col-sm-4">
-							<div class="text-center">
-								<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-							</div>
-							<!--  Changer la taille x3 -->
-							<div class="titleIcon">
-								<p class="mg-md text-center">
-									Web design
-								</p>
-							</div>
-							<div class="textIcon">
-								<p class="text-center btn-d">
-									Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous
-									partiez
-									de
-									zéro, laissez-nous vous réaliser un design dont vous serez fier.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="text-center">
-								<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-							</div>
-							<!--  check W3C validator -->
-							<div class="titleIcon">
-
-								<p class="mg-md text-center btn-d">
-									&nbsp;Stratégie
-								</p>
-							</div>
-							<div class="textIcon">
-
-								<p class="text-center btn-d">
-									Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour
-									comprendre
-									vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="text-center">
-								<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-							</div>
-							<div class="titleIcon">
-
-								<p class="mg-md text-center btn-d">
-									Illustrations
-								</p>
-							</div>
-							<div class="textIcon">
-
-								<p class="text-center btn-d">
-									Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de
-									graphistes talentueux pour donner à vos pages une touche finale d'élégance.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="row voffset-lg voffset">
-						<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-							<!-- MODIFICATION  -->
-
-							<!--  Mettre le vrai texte avec quote -->
-							<div class="textQuote btn-d">
-								<blockquote> "La chouette agence est une excellente agence web ! Les web designers ont
-									réussi à
-									capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a
-									aidé à
-									doubler nos ventes en ligne à Lyon."</blockquote> <br>
-								<strong> Maxime Guibard. PDG de À vos fourchettes</strong>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- bloc-2-services END -->
-
-			<!-- bloc-3-what-i-do -->
-			<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
-				id="bloc-3-what-i-do">
-				<div class="container bloc-lg">
-					<div class="row tight-width-whitespace black-background">
 						<div class="col-sm-12">
-							<h3 class="mg-md text-center tc-white brownText btn-d">
-								<!--  Changer couleur et taille et formulaire de contact -->
-
-								Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à
-								connaître
-								le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux
-								clients
-								.<br>
-							</h3>
-							<p class="text-center white btn-d">
-								Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale,
-								qu’elles
-								aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que
-								vous
-								ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez
-								pas à
-								nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien
-								structurés,
-								qui seront facilement trouvable sur les moteurs de recherche.
-								<!--  OK suppression du lien contact  OK -->
-
+							<h1 class="titleContact btn-d">
+								Parlons web design !
+							</h1>
+							<p class="subTitle btn-d">
+								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- bloc-3-what-i-do END -->
+			<!-- bloc-6 END -->
 
-			<!-- bloc-4-portfolio -->
-			<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+			<!-- bloc-7 -->
+			<div class="bloc bgc-white l-bloc" id="bloc-7">
 				<div class="container bloc-lg">
 					<div class="row">
-						<div class="col-sm-12 text-center btn-d">
-							<h4>Nous travaillons avec beaucoup de clients, voici nos réalisations.</h4>
-						</div>
-					</div>
-					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/livres.jpg" data-gallery-id="gallery-1"
-								data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-									src="img/livres.jpg"
-									alt="paris web design logo agence web meilleure agence et refonte site web journal"
-									class="img-responsive portfolio-thumb" /></a>
-							<div class="titleCard">
-								<p class="mg-md text-center btn-d">
-									Refonte d'un site web pour un journal local
-								</p>
-							</div>
-							<div class="textCard">
+							<h2 class="titleContact2 btn-d">Formulaire de contact</h2>
+							<div class="formContainer">
+								<form action>
+									Sent !
+								</form>
+								<form novalidate>Please try again !
 
-								<p class="text-center btn-d">
-									Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/fille-photographe.jpg" data-gallery-id="gallery-1"
-								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-									src="img/fille-photographe.jpg" class="img-responsive portfolio-thumb"
-									alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
-							<div class="titleCard">
-								<p class="mg-md text-center btn-d">
-									Création d'un site web pour photographes
-								</p>
-							</div>
-							<div class="textCard">
+								</form>
+								<div class="form-group">
+									<div class="labelName btn-d">
+										<label>
+											Nom
+										</label>
+									</div>
+									<input id="name" class="form-control btn-d" required />
+								</div>
+								<div class="form-group">
+									<!--  attribut "for"-->
+									<!--  attribut placeholder -->
+									<div class="labelName btn-d">
+										<label for="email">
+											Adresse email
+										</label>
+									</div>
+									<input id="email" class="form-control btn-d" type="email" required />
+								</div>
+								<div class="form-group">
+									<div class="labelName btn-d">
+										<label>
+											Comment nous avez-vous connu ?
+										</label>
+									</div>
+									<input class="form-control btn-d" type="email" required id="input_504" />
+								</div>
+								<div class="form-group">
+									<div class="labelName btn-d">
+										<label>
 
-								<p class="text-center btn-d">
-									Nous avons conçu la plateforme idéale pour laisser place aux clichés des
-									photographes.
-								</p>
+											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+										</label>
+									</div><textarea id="message" class="form-control btn-d" rows="4" cols="50"
+										required></textarea>
+								</div>
+								<div class="contactBtn">
+									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-d"
+										type="submit">
+										Envoyer
+									</button>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1"
-								data-caption="Création d'un site internet pour un voyageur"
-								data-frame="snapshot-lb"><img src="img/outils.jpg"
-									class="img-responsive portfolio-thumb"
-									alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur" /></a>
-							<div class="titleCard">
-
-								<p class="mg-md text-center btn-d">
-									Création d'un site internet pour un voyageur
-								</p>
-							</div>
-							<div class="textCard">
-
-								<p class="text-center btn-d">
-									Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et
-									les
-									articles de ce voyageur.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1"
-								data-caption="Conception d'un site pour une agence de mariage"
-								data-frame="snapshot-lb"><img src="img/bureau.jpg"
-									class="img-responsive portfolio-thumb"
-									alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
-							<div class="titleCard">
-
-								<p class="mg-md text-center btn-d">
-									Conception d'un site pour une agence de mariage
-								</p>
-							</div>
-							<div class="textCard">
-								<p class="text-center btn-d">
-									Nous avons travaillé avec cette agence pour créer un site internet permettant la
-									présentation détaillée de leurs prestations.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- bloc-4-portfolio END -->
-
-			<!-- bloc-5-cta -->
-			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
-				<div class="container bloc-lg">
-					<div class="row">
-						<h5 class="mg-md text-center tc-white btn-d">
-							Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe en cliquant sur le bouton
-							ci-dessous !
-						</h5>
-						<div class="col-sm-12 text-center">
-							<a href="contact.html"
-								class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</main>
 
-		<!-- bloc-5-cta END -->
-		<!--  OK ajout des balises "footer" _OK -->
+		<!-- bloc-7 END -->
 
-		<!-- Footer - bloc-8 -->
 		<footer>
 
 			<!-- Footer - bloc-8 -->
@@ -402,13 +213,13 @@
 					</div>
 				</div>
 			</div>
+
 		</footer>
-
-
 	</div>
+
+	<!-- Footer - bloc-8 END -->
+
 	<!-- Principal conteneur END -->
-
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Y8ZJXTZXV"></script>
 	<script>
@@ -418,7 +229,7 @@
 
 		gtag('config', 'G-2Y8ZJXTZXV');
 	</script>
-
 </body>
+
 
 </html>
