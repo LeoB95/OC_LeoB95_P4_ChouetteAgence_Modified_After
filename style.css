@@ -320,11 +320,6 @@ p.lastTitle,
   text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-  background: transparent;
-}
-
 .nav-invert .navbar .nav,
 .headerImg {
   float: left;
@@ -428,8 +423,8 @@ nav .caret {
 }
 
 .btn-d:focus {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  border: #0065fc solid 2px;
+  outline: 2px solid #0065fc;
 }
 
 button {
@@ -1236,9 +1231,10 @@ h1 {
   color: #f3976c;
   text-transform: uppercase;
 }
-.h1Sub {
+P.h1Sub {
   color: #f3976c !important;
-  font-size: 18px !important;
+  font-size: 22px !important;
+  line-height: 2;
 }
 h2 {
   color: #000000;
