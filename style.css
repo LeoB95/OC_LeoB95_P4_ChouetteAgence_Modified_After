@@ -643,6 +643,16 @@ a {
   margin-top: 40px;
   justify-content: center;
 }
+h4 {
+  text-transform: uppercase;
+}
+.h4Sub {
+  font-family: "helvetica";
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
 
 .container {
   max-width: 1000px;
@@ -709,13 +719,22 @@ p {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
+  line-height: 1.4em;
+}
+.h2Sub {
+  font-size: 18px;
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
+  font-weight: 700;
+  color: #333333 !important;
+}
+.h3Sub {
+  font-size: 15px;
   font-weight: 700;
   color: #333333 !important;
 }
@@ -726,7 +745,8 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 
-h4 {
+h4,
+.h4Sub {
   color: #333333 !important;
 }
 
@@ -892,10 +912,15 @@ h4 {
     position: relative;
   }
   h1,
+  .h1Sub,
   h2,
+  .h2Sub,
   h3,
+  .h3Sub,
   h4,
+  .h4Sub,
   h5,
+  .h5Sub,
   p.lastTitle,
   p,
   #disqus_thread {
@@ -1209,8 +1234,19 @@ p.text-center {
 
 h1 {
   color: #f3976c;
+  text-transform: uppercase;
+}
+.h1Sub {
+  color: #f3976c !important;
+  font-size: 18px !important;
 }
 h2 {
+  color: #000000;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.h2Sub {
   color: #000000;
   margin-bottom: 40px;
 }
@@ -1222,6 +1258,7 @@ h3 {
 }
 h5 {
   color: white !important;
+  text-transform: uppercase;
 }
 
 .lastTitle p {
@@ -1354,8 +1391,10 @@ div.contactBtn {
   justify-content: center;
 }
 
-.h5 {
+.h5Sub {
   color: white !important;
+  font-size: 18px;
+  text-align: center;
 }
 
 footer {
