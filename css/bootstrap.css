@@ -4125,8 +4125,7 @@ fieldset[disabled] .btn-danger:hover {
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
-  background-color: transparent;
-   box-shadow: none;
+    box-shadow: none;
 }
 
 .btn-link,
@@ -4140,8 +4139,7 @@ fieldset[disabled] .btn-link {
 .btn-link:hover {
   color: #23527c;
   text-decoration: underline;
-  background-color: transparent;
-}
+ }
 
 .btn-link[disabled]:focus,
 .btn-link[disabled]:hover,
@@ -5686,8 +5684,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   color: #fff;
   cursor: default;
   background-color: #337ab7;
-  border-color: #337ab7;
-}
+ }
 
 .pagination > .disabled > a,
 .pagination > .disabled > a:focus,
@@ -6227,8 +6224,7 @@ a.thumbnail:hover {
 .media,
 .media-body {
   overflow: hidden;
-  zoom: 1;
-}
+ }
 
 .media-body {
   width: 10000px;
@@ -6352,8 +6348,7 @@ button.list-group-item {
   z-index: 2;
   color: #fff;
   background-color: #337ab7;
-  border-color: #337ab7;
-}
+ }
 
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active .list-group-item-heading > .small,
@@ -6404,8 +6399,7 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
   color: #fff;
   background-color: #3c763d;
-  border-color: #3c763d;
-}
+ }
 
 .list-group-item-info {
   color: #31708f;
@@ -6438,8 +6432,7 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
   color: #fff;
   background-color: #31708f;
-  border-color: #31708f;
-}
+ }
 
 .list-group-item-warning {
   color: #8a6d3b;
@@ -6472,8 +6465,7 @@ button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
   color: #fff;
   background-color: #8a6d3b;
-  border-color: #8a6d3b;
-}
+ }
 
 .list-group-item-danger {
   color: #a94442;
@@ -6506,8 +6498,7 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
   color: #fff;
   background-color: #a94442;
-  border-color: #a94442;
-}
+ }
 
 .list-group-item-heading {
   margin-top: 0;
@@ -6929,8 +6920,7 @@ button.list-group-item-danger.active:hover {
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #337ab7;
-  border-color: #337ab7;
-}
+ }
 
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;
@@ -7845,8 +7835,7 @@ button.close {
 
 .text-hide {
   font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
+   text-shadow: none;
    border: 0;
 }
 
