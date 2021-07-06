@@ -3163,7 +3163,7 @@ textarea.form-control {
 }
  
 
-@media screen and (-webkit-min-pixel-ratio: 0) {
+@media screen and (min-pixel-ratio: 0) {
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
