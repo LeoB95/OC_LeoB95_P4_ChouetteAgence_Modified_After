@@ -7545,7 +7545,7 @@ button.close {
   line-height: 1;
 }
 
-@media all and (transform-3d) {
+@media all  {
   .carousel-inner > .item {
      transition: transform 0.6s ease-in-out;
      backface-visibility: hidden;
@@ -7847,8 +7847,7 @@ button.close {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
-  background-color: transparent;
-  border: 0;
+   border: 0;
 }
 
 .hidden {
