@@ -347,6 +347,15 @@ p.lastTitle,
     margin: 10px 10px 0 0;
     border: 0px;
 }
+  .navbar-toggle:hover {
+    background: transparent!important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+
   .nav-invert .site-navigation {
     left: 0;
     right: 0;
@@ -374,6 +383,10 @@ p.lastTitle,
     float: none;
     margin: 10px auto 0;
   }
+      .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -1052,7 +1065,10 @@ h4,
   }
   .nav-invert .navbar-toggle {
     display: none;
-  }
+    float: left;
+        margin-left: 10px;
+   
+  } 
   .bloc {
     padding-left: 0;
     padding-right: 0;
