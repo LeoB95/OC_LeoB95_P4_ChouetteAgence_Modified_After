@@ -343,6 +343,10 @@ p.lastTitle,
   .nav > li .dropdown-menu a:hover {
     color: #484848;
   }
+  .navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0px;
+}
   .nav-invert .site-navigation {
     left: 0;
     right: 0;
