@@ -947,7 +947,7 @@ h4,
   }
   h1.titleContact {
     text-align: center;
-    color: black;
+  color: white;
   }
   p.lastTitle {
     line-height: 1.5;
@@ -1323,14 +1323,14 @@ header {
 
 h1.titleContact {
   display: flex;
-  color: black;
+  color: white;
   text-transform: uppercase;
   font-size: 34px;
   font-weight: bolder;
   justify-content: center;
 }
 .subTitle {
-  color: #361607;
+  color: white;
   margin-top: 30px;
   font-size: 30px;
   line-height: 2;
