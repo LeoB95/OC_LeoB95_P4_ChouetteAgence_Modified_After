@@ -1143,12 +1143,7 @@ header {
   align-items: center;
   vertical-align: middle;
 }
-.headerContact {
-  display: flex;
-  vertical-align: middle;
-  margin-right: 100px;
-  margin-left: 180px;
-}
+ 
 .headerImg {
   margin-left: 200px;
 }
@@ -1231,9 +1226,7 @@ label.contactBtn button {
   padding-right: 25px;
 }
 
-.headerContact {
-  margin-right: 250px;
-}
+ 
 .col-sm-12 {
   margin: auto;
   width: 100%;
