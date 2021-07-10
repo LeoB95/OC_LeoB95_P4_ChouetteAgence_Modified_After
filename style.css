@@ -360,6 +360,8 @@ nav .caret {
 .btn-d:focus {
   border: #0065fc solid 2px;
   outline: 2px solid #0065fc;
+    padding: 10px;
+
 }
 button {
   outline: 0 !important;
