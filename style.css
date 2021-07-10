@@ -908,3 +908,10 @@ footer {
   width: 100%;
   background-color: #f3976c;
 }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
