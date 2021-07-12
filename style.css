@@ -776,7 +776,7 @@ h1 {
   text-transform: uppercase;
 }
 p.h1Sub {
-  color: #fff !important;
+  color: black;
   font-size: 22px !important;
   line-height: 2;
 }
