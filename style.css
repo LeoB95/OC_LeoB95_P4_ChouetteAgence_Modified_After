@@ -889,6 +889,8 @@ label.contactBtn button {
 .col-sm-12 {
   margin: auto;
   width: 100%;
+    color: #000;
+  background-color: #f2f2f27c;
 }
 .mainTitle {
   background-color: #f2f2f27c;
