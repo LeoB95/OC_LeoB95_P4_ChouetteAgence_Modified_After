@@ -145,7 +145,7 @@ p.lastTitle {
 }
 #bloc-1-hero h1 {
   font-size: 32px;
-  color: #ec9c77;
+  color: black;
 }
 .navbar {
   margin-bottom: 0;
@@ -416,7 +416,7 @@ h2.knowUs {
 .h2SubKnowUs {
   font-size: 15px;
   font-weight: 700;
-  color: #333 !important;
+  color: black;
 }
 .med-width-whitespace {
   max-width: 800px;
@@ -772,13 +772,13 @@ p.text-center {
   color: #361607;
 }
 h1 {
-  color: #ec9c77;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 p.h1Sub {
-  color: #ec9c77;
   font-size: 22px !important;
   line-height: 2;
+  color: black;
 }
 h2.services {
   color: #000;
@@ -823,13 +823,17 @@ header {
   text-align: center;
   line-height: 2;
 }
-h1.titleContact {
+h1.titleContact,
+p.titleContact {
   display: flex;
   color: #fff;
   text-transform: uppercase;
   font-size: 34px;
   font-weight: bolder;
   justify-content: center;
+  text-align: center;
+  border-bottom: dotted #361607 6px;
+  padding-bottom: 30px;
 }
 .subTitle {
   color: #fff;
@@ -880,6 +884,10 @@ label.contactBtn button {
   margin: auto;
   width: 100%;
 }
+.mainTitle {
+  background-color: #f2f2f27c;
+  padding: 20px;
+}
 div.contactBtn {
   display: flex;
   justify-content: center;
@@ -914,4 +922,3 @@ footer {
   max-width: 100%;
   height: auto;
 }
-
