@@ -932,3 +932,8 @@ footer {
   max-width: 100%;
   height: auto;
 }
+img.headerLogo,
+img.footerLogo {
+  height: 40px;
+}
+
