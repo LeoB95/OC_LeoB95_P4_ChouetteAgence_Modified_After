@@ -894,9 +894,12 @@ label.contactBtn button {
   margin: auto;
   width: 100%;
   color: #000;
-  background-color: #f2f2f27c;
+}
+.mainTitle {
+      background-color: #f2f2f27c;
   padding: 20px;
 }
+
 
 div.contactBtn {
   display: flex;
