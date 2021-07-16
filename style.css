@@ -4,14 +4,7 @@ body {
   background: #fff;
   overflow-x: hidden;
   width: 100%;
-  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-}
-body.contact {
-  width: 100%;
-html {
-  width: 100%;
-  background–color: #F3976C;
 }
 a,
 button {
@@ -626,6 +619,10 @@ h2.projects {
     padding: 5px;
     margin-bottom: 10px;
   }
+  img.footerLogo {
+    justify-content: left;
+    text-align: left;
+  }
 }
 @media (max-width: 400px) {
   .bloc {
@@ -825,7 +822,6 @@ header {
   display: flex;
   align-items: center;
   vertical-align: middle;
-  background-color: white;
 }
 .headerImg {
   margin-left: 200px;
@@ -836,7 +832,6 @@ header {
   font-size: 20px;
   margin-bottom: 40px;
   margin-top: 10px;
-  margin-right: 15px;
   text-align: center;
   line-height: 2;
 }
@@ -898,16 +893,19 @@ label.contactBtn button {
   color: #000;
   padding-right: 25px;
 }
+.col-sm-6 {
+  height: 100%;
+  width: 100%;
+}
 .col-sm-12 {
   margin: auto;
   width: 100%;
   color: #000;
 }
 .mainTitle {
-      background-color: #f2f2f27c;
+  background-color: #f2f2f27c;
   padding: 20px;
 }
-
 
 div.contactBtn {
   display: flex;
@@ -920,7 +918,8 @@ div.contactBtn {
 }
 footer {
   display: flex;
-  justify-content: center;
+  text-align: center !important;
+  justify-content: center !important;
   background-color: #f3976c;
   padding-bottom: 10px;
   width: 100%;
@@ -928,13 +927,16 @@ footer {
 .footerLogo img {
   max-height: 40px;
   width: auto;
+  text-align: center;
 }
 .bottomFooter {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  vertical-align: middle;
   justify-content: center;
-  width: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
   background-color: #f3976c;
 }
 
@@ -946,7 +948,7 @@ footer {
 img.headerLogo,
 img.footerLogo {
   height: 40px;
-  width: auto;
 }
- 
-
+img.footerLogo {
+  justify-content: center !important;
+}
