@@ -929,6 +929,10 @@ footer {
   width: auto;
   text-align: center;
 }
+.headerLogo img {
+   max-height: 40px;
+  width: auto;
+}
 .bottomFooter {
   display: flex;
   flex-direction: column;
