@@ -988,7 +988,8 @@ html {
   background-color: #f3976c;
 }
 img.logoContact a {
-  max-height: 40px;
-  height: auto;
-  width: 100px;
+  height: 40px;
+ }
+.logoContact img {
+  height: 40px;
 }
