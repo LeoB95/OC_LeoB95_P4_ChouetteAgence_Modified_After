@@ -866,7 +866,8 @@ header {
   align-items: center;
   vertical-align: middle;
 }
-.headerImg {
+img.footerLogo,
+img.headerLogo {
   margin-left: 200px;
 }
 .address p {
