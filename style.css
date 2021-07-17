@@ -866,10 +866,7 @@ header {
   align-items: center;
   vertical-align: middle;
 }
-img.footerLogo,
-img.headerLogo {
-  margin-left: 200px;
-}
+ 
 .address p {
   color: #361607;
   width: 100%;
@@ -962,7 +959,8 @@ footer {
   padding-bottom: 10px;
   width: 100%;
 }
-.footerLogo img {
+img.footerLogo,
+img.headerLogo {
   max-height: 40px;
   width: auto;
 }
