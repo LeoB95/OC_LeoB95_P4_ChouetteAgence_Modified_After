@@ -582,6 +582,9 @@ h2.projects {
     overflow-x: hidden;
     position: relative;
   }
+header {
+vertical-align: middle
+} 
   h1,
   h2,
   p {
