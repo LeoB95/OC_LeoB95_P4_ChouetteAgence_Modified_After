@@ -55,8 +55,6 @@ a:hover {
   content: "";
   background-size: 2px 2px;
   position: absolute;
-  justify-content: center !important;
-  text-align: center !important;
   top: 0;
   bottom: 0;
   left: 0;
@@ -147,7 +145,7 @@ p.lastTitle {
 }
 #bloc-1-hero h1 {
   font-size: 32px;
-  color: #000;
+  color: black;
 }
 #bloc-h1-hero {
   color: #000;
@@ -189,7 +187,6 @@ p.lastTitle {
 }
 .headerImg {
   float: left;
-  height: 40px;
 }
 @media (min-width: 768px) {
   .site-navigation {
@@ -269,7 +266,8 @@ button {
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  background-color: #fff;
+  border: 4px solid #000;
+  background-color: #e2e2e2;
   box-shadow: none;
 }
 .form-control:active {
@@ -329,47 +327,6 @@ a[data-lightbox]:hover img {
   right: 15px;
   bottom: 5px;
 }
-.close-lightbox {
-  color: #fff;
-  font-size: 30px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  line-height: 30px;
-  padding: 0 9px 5px;
-  opacity: 0.3;
-}
-.close-lightbox:hover,
-.next-lightbox:hover,
-.prev-lightbox:hover {
-  opacity: 1;
-  color: #fff;
-}
-.next-lightbox,
-.prev-lightbox {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 0.2s ease-in-out;
-  position: absolute;
-  top: 45%;
-  z-index: 1;
-  opacity: 0.4;
-}
-.next-lightbox {
-  padding: 6px 8px 1px 13px;
-  right: 25px;
-}
-.prev-lightbox {
-  padding: 6px 13px 1px 10px;
-  left: 25px;
-}
-.snapshot-lb .modal-body {
-  padding-bottom: 45px;
-}
 .snapshot-lb .lightbox-caption {
   padding: 0;
   color: rgba(0, 0, 0, 0.5);
@@ -388,6 +345,7 @@ p.lastTitle {
   display: flex;
   margin-bottom: 10px;
   margin-top: 40px;
+  justify-content: center;
 }
 h2.projects {
   text-transform: uppercase;
@@ -429,22 +387,17 @@ p {
 }
 .social {
   display: flex;
-  vertical-align: middle;
-  align-items: center;
   flex-direction: row;
+  max-width: 400px;
   margin: auto;
   padding: 20px;
   text-decoration: none;
-  text-align: center;
-  list-style: none;
+  text-align: right;
 }
 .social i {
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
-  list-style: none;
   font-size: 30px;
   color: #361607 !important;
+  background-color: transparent !important;
 }
 .social i:hover {
   transform: scale(1.5) !important;
@@ -467,7 +420,7 @@ h2.knowUs {
 .h2SubKnowUs {
   font-size: 15px;
   font-weight: 700;
-  color: #000;
+  color: black;
 }
 .med-width-whitespace {
   max-width: 800px;
@@ -582,9 +535,6 @@ h2.projects {
     overflow-x: hidden;
     position: relative;
   }
-header {
-vertical-align: middle
-} 
   h1,
   h2,
   p {
@@ -730,7 +680,6 @@ vertical-align: middle
   .headerLogo img h1.titleContact {
     line-height: 1.5;
     padding-bottom: 20px;
-    color: #000 !important;
     border-bottom: dotted 4px #361607;
   }
   .mainContact {
@@ -765,10 +714,9 @@ vertical-align: middle
   .formContainer {
     justify-content: left;
     margin: 10px;
-    background-color: grey;
   }
   textarea {
-    background-color: white;
+    background-color: #fff;
     width: 180px;
     height: 250px;
   }
@@ -807,16 +755,16 @@ strong {
   margin-top: 40px;
 }
 main.mainContact {
-  background-color: grey;
+  background-color: #e2e2e2;
   justify-content: center;
   width: 100%;
 }
-p.titleCard {
+.titleCard p {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
 }
-p.textCard {
+.textCard p {
   font-size: 14px;
   font-weight: 400;
 }
@@ -830,7 +778,7 @@ p.text-center {
   font-size: 18px;
   justify-content: center;
   margin-top: 0;
-  color: #000;
+  color: #361607;
 }
 h1 {
   text-transform: uppercase;
@@ -839,7 +787,7 @@ h1 {
 p.h1Sub {
   font-size: 22px !important;
   line-height: 2;
-  color: #000;
+  color: black;
 }
 h2.services {
   color: #000;
@@ -858,18 +806,21 @@ h2.knowUs {
   border-bottom: #361607 dotted 3px;
 }
 h2.contactUs {
-  color: #000;
+  color: #fff !important;
   text-transform: uppercase;
 }
-p.lastTitle {
-  text-align: center !important;
-  justify-content: center !important;
+.lastTitle p {
+  text-align: center;
+  justify-content: center;
   color: #000;
 }
 header {
   display: flex;
   align-items: center;
   vertical-align: middle;
+}
+.headerImg {
+  margin-left: 200px;
 }
 .address p {
   color: #361607;
@@ -881,7 +832,7 @@ header {
   text-align: center;
   line-height: 2;
 }
-h1,
+h1.titleContact,
 p.titleContact {
   display: flex;
   color: #fff;
@@ -893,8 +844,8 @@ p.titleContact {
   border-bottom: dotted #361607 6px;
   padding-bottom: 30px;
 }
-p.subTitle {
-  color: black;
+.subTitle {
+  color: #fff;
   margin-top: 30px;
   font-size: 30px;
   line-height: 2;
@@ -902,14 +853,14 @@ p.subTitle {
 }
 h2.titleContact2 {
   font-size: 34px;
-  color: #fff;
+  color: #000;
   padding: 5px;
   text-transform: uppercase;
   justify-content: center;
   text-align: center;
 }
 label {
-  color: #fff;
+  color: #000;
   font-size: 22px;
   justify-content: center;
 }
@@ -926,13 +877,9 @@ label.contactBtn button {
   text-align: left;
 }
 #bloc-7 {
-  background-color: grey;
+  background-color: white;
   width: 100%;
   height: 100%;
-}
-#bloc-5-cta {
-  justify-content: center !important;
-  text-align: center !important;
 }
 .navbar-nav li {
   display: flex;
@@ -950,76 +897,38 @@ label.contactBtn button {
   background-color: #f2f2f27c;
   padding: 20px;
 }
+
 div.contactBtn {
   display: flex;
   justify-content: center;
 }
 .h2SubContactUs {
-  color: #000;
-  font-size: 20px;
-  justify-content: center;
+  color: #fff !important;
+  font-size: 18px;
+  text-align: center;
 }
 footer {
   display: flex;
   justify-content: center;
-  text-align: center;
-  padding-bottom: 10px;
-  width: auto;
-  height: auto;
   background-color: #f3976c;
+  padding-bottom: 10px;
+  width: 100%;
 }
-img.footerLogo,
-img.headerLogo {
+.footerLogo img {
   max-height: 40px;
   width: auto;
-}
-img.footerLogo {
-  justify-content: center !important;
-  text-align: center !important;
 }
 .bottomFooter {
   display: flex;
   flex-direction: column;
-  align-items: center !important;
-  text-align: center !important;
+  align-items: center;
   justify-content: center;
+  width: 100%;
   background-color: #f3976c;
 }
+
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
-html {
-  background-color: #f3976c;
-}
-img.logoContact a {
-  max-height: 40px;
-  height: auto;
-  width: 100px;
-}
-h1,
-h2,
-h3 {
-  justify-content: center;
-  text-align: center;
-}
-
-h1.titleContact {
-  color: #000;
-  font-weight: bolder;
-}
-
-div.col6Center {
-  display: flex;
-  justify-content: center !important;
-  text-align: center !important;
-  width: 100%;
-}
-
-.greyCol {
-  background-color: #f2f2f27c;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: auto;
-} 
