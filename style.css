@@ -3,7 +3,6 @@ body {
   padding: 0;
   background: #fff;
   overflow-x: hidden;
-  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 a,
@@ -266,9 +265,11 @@ button {
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  border: 4px solid #000;
-  background-color: #e2e2e2;
+  border: 2px solid #000 !important;
+  background-color: #e2e2e2 !important;
   box-shadow: none;
+  font-weight: bolder;
+  color: #000;
 }
 .form-control:active {
   border-color: #0065fc;
@@ -387,21 +388,26 @@ p {
 }
 .social {
   display: flex;
+  vertical-align: middle;
+  align-items: center;
   flex-direction: row;
-  max-width: 400px;
   margin: auto;
   padding: 20px;
-  text-decoration: none;
-  text-align: right;
+  text-align: center;
 }
 .social i {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
   font-size: 30px;
+  text-decoration: none;
   color: #361607 !important;
-  background-color: transparent !important;
 }
+
 .social i:hover {
   transform: scale(1.5) !important;
   color: gray !important;
+  text-decoration: none;
 }
 h2.services {
   font-size: 24px;
@@ -540,6 +546,7 @@ h2.projects {
   p {
     padding-left: 10px !important;
     padding-right: 10px !important;
+    text-align: center;
   }
   .b-parallax {
     background-attachment: scroll;
@@ -549,6 +556,7 @@ h2.projects {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
   }
+
   .navbar.row {
     margin-left: 0;
     margin-right: 0;
@@ -614,6 +622,7 @@ h2.projects {
   .voffset-lg {
     margin-top: 30px;
   }
+
   form {
     display: flex;
     padding: 5px;
@@ -685,8 +694,8 @@ h2.projects {
   .mainContact {
     margin: 0;
     height: 100%;
+    width: 100%;
     justify-content: center;
-    background-color: #e2e2e2;
   }
   .labelName {
     width: 180px;
@@ -695,9 +704,12 @@ h2.projects {
   }
   form {
     flex-direction: column;
-    width: 180px;
+    max-width: 300px;
     justify-content: left;
-    margin: 0;
+    margin: 10px;
+  }
+  label {
+    max-width: 300px;
   }
   input {
     background-color: #fff;
@@ -716,8 +728,7 @@ h2.projects {
     margin: 10px;
   }
   textarea {
-    background-color: #fff;
-    width: 180px;
+    max-width: 300px;
     height: 250px;
   }
   .contactBtn {
@@ -725,40 +736,40 @@ h2.projects {
     margin: 10px;
   }
   .social {
-    padding: 5px;
+    padding-right: 20px;
     justify-content: center;
+  }
+  img.footerLogo {
+    text-align: left;
+    justify-content: left;
   }
 }
 .textQuote {
   display: inline;
 }
 blockquote {
-  color: #361607;
+  color: black;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 0;
-  font-size: 17.5px;
   border-left: 5px solid #361607;
   border-right: 5px solid #361607;
   text-align: justify;
   text-align: center;
   font-size: 18px;
+  font-weight: bolder;
 }
 strong {
   font-size: 18px;
   border-bottom: 5px solid #361607;
   padding-bottom: 30px;
   text-align: justify;
-  color: #361607;
+  color: black;
 }
 .bloc-lg {
   margin-top: 40px;
 }
-main.mainContact {
-  background-color: #e2e2e2;
-  justify-content: center;
-  width: 100%;
-}
+
 .titleCard p {
   text-transform: uppercase;
   font-size: 18px;
@@ -809,7 +820,7 @@ h2.contactUs {
   color: #fff !important;
   text-transform: uppercase;
 }
-.lastTitle p {
+p.lastTitle {
   text-align: center;
   justify-content: center;
   color: #000;
@@ -828,10 +839,10 @@ header {
   font-size: 20px;
   margin-bottom: 40px;
   margin-top: 10px;
-  margin-right: 15px;
   text-align: center;
   line-height: 2;
 }
+
 h1.titleContact,
 p.titleContact {
   display: flex;
@@ -844,8 +855,8 @@ p.titleContact {
   border-bottom: dotted #361607 6px;
   padding-bottom: 30px;
 }
-.subTitle {
-  color: #fff;
+p.subTitle {
+  color: black;
   margin-top: 30px;
   font-size: 30px;
   line-height: 2;
@@ -881,6 +892,7 @@ label.contactBtn button {
   width: 100%;
   height: 100%;
 }
+
 .navbar-nav li {
   display: flex;
   align-items: center;
@@ -893,7 +905,7 @@ label.contactBtn button {
 .mainTitle {
   margin: auto;
   width: 100%;
-  color: #000;
+  color: #000 !important;
   background-color: #f2f2f27c;
   padding: 20px;
 }
@@ -910,25 +922,68 @@ div.contactBtn {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #f3976c;
+  text-align: center;
   padding-bottom: 10px;
-  width: 100%;
-}
-.footerLogo img {
-  max-height: 40px;
   width: auto;
-}
-.bottomFooter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  height: auto;
   background-color: #f3976c;
 }
 
+img.footerLogo,
+img.headerLogo {
+  height: 40px;
+  width: auto;
+}
+img.footerLogo {
+  justify-content: center !important;
+  text-align: center !important;
+}
+.footerLogo {
+  width: 100%;
+}
+img.logoContact a {
+  max-height: 40px;
+  height: auto;
+  justify-content: center;
+  width: 100px;
+}
+div.bottomFooter {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  background-color: #f3976c;
+}
 .img-responsive {
   display: block;
-  max-width: 100%;
+  max-width: auto;
   height: auto;
+}
+h1.titleContact {
+  color: #000;
+  font-weight: bolder;
+}
+
+div.col6Center {
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100%;
+}
+
+.greyCol {
+  background-color: #f2f2f27c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+}
+html {
+  background-color: #f3976c;
+}
+
+.bottomFooter {
+  justify-content: center !important;
+  text-align: center !important;
+  display: flex;
 }
