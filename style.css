@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Noto", Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #fff;
   overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-}
+ }
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -300,8 +305,6 @@ a[data-lightbox] {
 }
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -382,8 +385,7 @@ h2,
 label,
 p,
 p.lastTitle {
-  font-family: helvetica;
-  font-weight: bolder;
+   font-weight: bolder;
   font-size: 24px;
   display: flex;
   margin-bottom: 10px;
@@ -394,8 +396,7 @@ h2.projects {
   text-transform: uppercase;
 }
 .h2SubProjects {
-  font-family: helvetica;
-  font-size: 18px;
+   font-size: 18px;
   display: flex;
   margin-bottom: 10px;
   justify-content: center;
@@ -418,8 +419,7 @@ p {
 }
 .h1 {
   font-size: 20px;
-  font-family: "Open Sans";
-}
+ }
 .cta-hero {
   margin-top: 22px;
   color: #fff !important;
