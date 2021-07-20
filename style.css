@@ -9,7 +9,7 @@ body {
   padding: 0;
   background: #fff;
   overflow-x: hidden;
- }
+}
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -298,6 +298,7 @@ button {
 .scrollToTop span {
   margin-top: 6px;
 }
+
 a[data-lightbox] {
   position: relative;
   display: block;
@@ -385,7 +386,7 @@ h2,
 label,
 p,
 p.lastTitle {
-   font-weight: bolder;
+  font-weight: bolder;
   font-size: 24px;
   display: flex;
   margin-bottom: 10px;
@@ -396,7 +397,7 @@ h2.projects {
   text-transform: uppercase;
 }
 .h2SubProjects {
-   font-size: 18px;
+  font-size: 18px;
   display: flex;
   margin-bottom: 10px;
   justify-content: center;
@@ -419,7 +420,7 @@ p {
 }
 .h1 {
   font-size: 20px;
- }
+}
 .cta-hero {
   margin-top: 22px;
   color: #fff !important;
@@ -859,7 +860,7 @@ h2.knowUs {
   border-bottom: #361607 dotted 3px;
 }
 h2.contactUs {
-  color: #fff !important;
+  color: black !important;
   text-transform: uppercase;
 }
 p.lastTitle {
@@ -933,6 +934,9 @@ label.contactBtn button {
   background-color: white;
   width: 100%;
   height: 100%;
+}
+#bloc-5-cta {
+  color: #000 !important;
 }
 
 .navbar-nav li {
