@@ -975,7 +975,7 @@ label.contactBtn button {
   background-color: #ffffff48;
   padding: 70px;
   border-radius: 100%;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 .backWhite1 {
@@ -1057,4 +1057,9 @@ html {
   justify-content: center !important;
   text-align: center !important;
   display: flex;
+}
+
+.radiusLogo {
+max-width: 100%;
+width: 50%;
 }
