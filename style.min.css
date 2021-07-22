@@ -64,7 +64,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/texture-paper.jpf);
+  background: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/texture-paper.png);
   background-size: 280px 280px;
 }
 .b-parallax {
