@@ -973,11 +973,10 @@ label.contactBtn button {
   margin: auto;
   color: #000 !important;
   background-color: #ffffff48;
-  padding: 70px;
+  padding: 100px;
   border-radius: 100%;
-  width: auto;
-  height: auto;
-}
+  width: 100%;
+ }
 .backWhite1 {
   border-radius: 10%;
   background-color: #f3c46c63 !important;
