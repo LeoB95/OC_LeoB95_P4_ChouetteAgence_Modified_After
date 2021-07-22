@@ -545,17 +545,17 @@ h2.projects {
   border-color: #364577 !important;
 }
 .bg-dots-bg {
-  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/dots-bg.jpf);
+  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/dots-bg.png);
   color: #fff;
 }
 .bg-lines-h2-bg {
-  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/lines-h2-bg.jpf);
+  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/lines-h2-bg.png);
 }
 .bg-banniere {
-  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/la-chouette-agence-banniere.jpf);
+  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/la-chouette-agence-banniere.png);
 }
 .bg-presentation {
-  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/image-de-presentation.jpf);
+  background-image: url(https://leob95.github.io/P04_LeoBlanchon_02062021_AFTER/img/image-de-presentation.png);
 }
 @media (max-width: 1024px) {
   .bloc {
