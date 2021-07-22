@@ -975,7 +975,7 @@ label.contactBtn button {
   background-color: #ffffff48;
   padding: 70px;
   border-radius: 100%;
-  width: 100%;
+  width: auto;
   height: auto;
 }
 .backWhite1 {
