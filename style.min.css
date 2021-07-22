@@ -971,10 +971,9 @@ label.contactBtn button {
 }
 .backWhite {
   margin: auto;
-  width: 100%;
   color: #000 !important;
   background-color: #ffffff48;
-  padding: 50px;
+  padding: 70px;
   border-radius: 100%;
   width: auto;
   height: auto;
