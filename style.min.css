@@ -1060,6 +1060,5 @@ html {
 }
 
 .radiusLogo {
-max-width: 100%;
-width: 50%;
+ width: 150px;
 }
