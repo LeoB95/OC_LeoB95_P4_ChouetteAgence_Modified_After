@@ -921,7 +921,7 @@ h2.knowUs {
   border-bottom: #361607 dotted 3px;
 }
 h2.contactUs {
-  color: #000 !important;
+  color: white !important;
   text-transform: uppercase;
 }
 p.lastTitle {
@@ -1028,7 +1028,7 @@ div.contactBtn {
   justify-content: center;
 }
 .h2SubContactUs {
-  color: #000;
+  color: white !important;
   font-size: 18px;
   text-align: center;
 }
