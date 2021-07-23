@@ -1069,7 +1069,7 @@ div.bottomFooter {
 }
 .img-responsive {
   display: block;
-   width: 100%;
+   width: auto;
 }
 h1.titleContact {
   color: #000;
