@@ -1031,8 +1031,7 @@ div.bottomFooter {
 }
 .img-responsive {
   display: block;
-  max-width: 1003px;
-  width: auto;
+   width: 100%;
 }
 h1.titleContact {
   color: #000;
