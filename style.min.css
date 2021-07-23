@@ -921,7 +921,7 @@ h2.knowUs {
   border-bottom: #361607 dotted 3px;
 }
 h2.contactUs {
-  color: white !important;
+  color: black !important;
   text-transform: uppercase;
 }
 p.lastTitle {
@@ -1010,25 +1010,23 @@ label.contactBtn button {
 .backWhite {
   margin: auto;
   color: #000 !important;
-  background-color: #ffffff48;
-  padding: 100px;
+  background-color: #ffffff60;
+   padding: 60px;
   border-radius: 100%;
-  width: auto;
+  width: 100%;
 }
 .backWhite1 {
   border-radius: 10%;
-  background-color: #f3c46c63 !important;
-}
+ }
 .backWhite2 {
-  background-color: #ffffff7e !important;
-  border-radius: 50px;
+   border-radius: 50px;
 }
 div.contactBtn {
   display: flex;
   justify-content: center;
 }
 .h2SubContactUs {
-  color: white !important;
+  color: black !important;
   font-size: 18px;
   text-align: center;
 }
