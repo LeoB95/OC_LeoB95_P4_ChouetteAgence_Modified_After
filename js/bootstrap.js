@@ -1806,9 +1806,7 @@ if ("undefined" == typeof jQuery)
         });
       });
   })(jQuery);
-"string" == typeof b && e[b]();
-    
-    }
+"string" == typeof b && e[b](); 
     var c = function (a, b) {
       (this.type = null),
         (this.options = null),
