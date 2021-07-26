@@ -2265,7 +2265,7 @@ if ("undefined" == typeof jQuery)
       (a.fn.tooltip.noConflict = function () {
         return (a.fn.tooltip = d), this;
       });
-  })(jQuery),
+ (jQuery),
   +(function (a) {
     "use strict";
 
