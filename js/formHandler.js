@@ -1,4 +1,3 @@
-$(function()
 {	
 	$("input,textarea").jqBootstrapValidation(
     {
