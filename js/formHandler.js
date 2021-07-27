@@ -77,4 +77,4 @@ $("input,textarea").jqBootstrapValidation(
 		
 	 	return path
 	 }
- );
+ 
