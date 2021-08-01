@@ -72,3 +72,4 @@ deny from all
 
 # protection de la lecture des r�pertoires
 Options -Indexes
+fa_custom_setup_kit('https://kit.fontawesome.com/e71513e375.js');
