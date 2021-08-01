@@ -1,6 +1,6 @@
 <IfModule mod_expires.c>
   ExpiresActive On
-
+Cache-Control: max-age=31536000
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/gif "access plus 1 year"
