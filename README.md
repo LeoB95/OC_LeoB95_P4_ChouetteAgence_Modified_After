@@ -1,4 +1,4 @@
 # P04_LeoBlanchon_02062021
 Projet 4 avec modification pour l'amélioration SEO du site "La chouette agence"
 
-Lien Git Page : https://leob95.github.io/P4_Leo_Blanchon_ChouetteAgence_After/
+Lien Git Page : https://leob95.github.io/OC_P4_ChouetteAgence_After/
